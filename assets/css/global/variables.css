@@ -1,0 +1,50 @@
+/*
+
+VARIVEIS DO APP REDIRECIONE
+
+*/
+
+/* Cores */
+
+:root {
+  --cor-branco: #ffffff;
+  --cor-preto: #000000;
+
+  --cor-primaria-1: #e7004c;
+  --cor-primaria-2: #d3094c;
+  --cor-primaria-3: #bf0e49;
+  --cor-primaria-4: #a51042;
+  --cor-primaria-5: #851138;
+
+  --cor-secundaria-1: #001841;
+  --cor-secundaria-2: #011434;
+  --cor-secundaria-3: #030e22;
+  --cor-secundaria-4: #020916;
+  --cor-secundaria-5: #164ca9;
+}
+
+/* Fontes */
+
+:root {
+  --fonte-medium: "gilroy_medium";
+  --fonte-bold: "gilroy_bold";
+  --fonte-black: "gilroy_black";
+}
+
+/* Bordas */
+
+:root {
+  --borda: 1.75px dashed var(--cor-primaria-4);
+}
+
+/* Border Radius */
+
+:root {
+  --radius: 10px;
+}
+
+/* Paddings */
+
+:root {
+  --padding: 12px 20px;
+}
