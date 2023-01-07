@@ -17,7 +17,7 @@ section.assinar {
 
 section.assinar img {
   margin-top: -40px;
-  width: 100%;
+  width: 40%;
   border-radius: 10px;
 }
 
@@ -115,6 +115,11 @@ section.assinar img.mobile {
 }
 
 @media screen and (max-width: 800px) {
+  section.assinar img {
+    margin-top: -40px;
+    width: 100%;
+    border-radius: 10px;
+  }
   section.assinar .titulo {
     align-items: flex-start;
     text-align: left;
