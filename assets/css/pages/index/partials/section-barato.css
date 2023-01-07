@@ -153,6 +153,16 @@ section.barato .imagem .quadro.tres {
 /* Responsivo */
 
 @media screen and (max-width: 1000px) {
+  section.barato ul li {
+    color: white;
+    font-family: var(--fonte-medium);
+    font-size: 1.1rem;
+    color: var(--cor-branco);
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+    line-height: 1;
+    text-align: left;
+  }
   section.barato .titulo h2 {
     font-size: 1.6rem;
     max-width: 600px;

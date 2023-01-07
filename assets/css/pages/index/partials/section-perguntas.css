@@ -9,7 +9,7 @@ section.perguntas {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 0px;
+  padding: 30px 0px;
   background-color: var(--cor-primaria-1);
   background-image: linear-gradient(0deg, #030e22, #001841);
 }
@@ -22,6 +22,11 @@ section.perguntas .titulo {
   justify-content: center;
   text-align: center;
   padding: 0px 30px 50px 30px;
+  flex-direction: column;
+}
+
+section.perguntas .titulo p {
+  color: white;
 }
 
 section.perguntas .titulo h2 {
@@ -269,13 +274,14 @@ section.perguntas1 .itens1 .item1 p span {
 
 @media screen and (max-width: 550px) {
   section.perguntas1 .itens1 {
-    width: 95%;
+    margin-top: 30px;
+    width: 100%;
   }
   section.perguntas1 {
     padding: 0px;
   }
   section.perguntas1 .itens1 .item1 {
-    max-width: 320px;
+    max-width: 350px;
     min-width: 220px;
     padding: 40px 10px 10px 10px;
     margin: 0px 25px;
