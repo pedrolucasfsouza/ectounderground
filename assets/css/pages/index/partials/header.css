@@ -24,6 +24,7 @@ header .imagem {
   align-items: flex-end;
   justify-content: flex-start;
   width: 100%;
+  height: 50vh;
   padding-right: 50px;
 }
 
