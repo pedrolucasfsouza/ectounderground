@@ -3,6 +3,32 @@
 HEADER
 
 */
+.bar {
+  width: 100%;
+  background-color: var(--cor-primaria-1);
+  color: white;
+  font-family: var(--fonte-medium);
+  font-size: 1.2rem;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  color: var(--cor-branco);
+  line-height: 1.5;
+}
+
+.bar p strong {
+  width: 100%;
+  background-color: var(--cor-primaria-1);
+  color: white;
+  font-family: var(--fonte-medium);
+  font-size: 1.2rem;
+  padding: 10px;
+  font-weight: 900;
+  justify-content: center;
+  display: flex;
+  color: var(--cor-branco);
+  line-height: 1.5;
+}
 
 header {
   background-image: url("../../../../images/pages/index/background-header.svg");
